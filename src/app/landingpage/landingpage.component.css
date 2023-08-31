@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
-*{
+.on{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -104,3 +104,46 @@ button:hover {
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
   
 
+  /*Banner making*/
+
+#banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(99, 98, 98, 0.2) url(../../assets/bannerr.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: rgba(0,136,169,1);
+}
+
+#banner h3 {
+    background: rgb(17, 17, 17);
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 24px;
+    color: rgba(0,136,169,1);
+}
+
+H3{
+    
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    transition: all 0,4s;
+    display: inline-block;
+    padding: 4px 32px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    width: 70%;
+    padding: 20px;
+    padding-top: 0;
+  }
